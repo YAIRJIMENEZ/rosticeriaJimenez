@@ -4,8 +4,8 @@ import VideoTextFront from './anuncio/VideoComponent/VideoTextFront'
 import {Brand} from './menu/brand'
 import { useFectImages } from './Services/useServiceImageData'
 export const Home = () => {
-    const {data,loading} = useFectImages('./ImagesHome.json');
-    const {data:dataVideo,loading:loadingVideo} = useFectImages('./VideosR.json');
+    const {data,loading} = useFectImages('/ImagesHome.json');
+    const {data:dataVideo,loading:loadingVideo} = useFectImages('/VideosR.json');
     return (
         <div>
            <Brand Titulo="CARNICERÍA" Subtitulo="Abierto todos los dias de 8am a 4pm" />
