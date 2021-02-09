@@ -26,7 +26,19 @@ export const Footer = () => {
                              </div>
                        </li>
                    </ul>
-                    
+               </div>
+               <div className="rigth">
+                   <div className="Recomendacion">
+                   <p >Recomendaciones:
+                   Gorditas y Carnitas SanMiguel
+                   Carretera a Calvillo Km. 17
+                  
+                   (Enfrente de la gas de venadero)
+                   
+                   </p>
+                  
+                   </div>
+                  
                </div>
             </div>
         </footer>
