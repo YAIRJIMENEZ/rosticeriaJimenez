@@ -1,0 +1,14 @@
+[
+    {
+        "Id":1,
+        "Name":"Cortes",
+        "Path":"/assets/images/cortesCarnes.jpg",
+        "Description":"Con gran variedad de cortes en nuestras mejores carnes"
+    },
+    {
+        "Id":2,
+        "Name":"Emapaquetado al vacio",
+        "Path":"/assets/images/empvacio.jpeg",
+        "Description":"Contamos con el empaquetado al vacio de nuestros productos para mantenerlos frescos y perdurables"
+    }
+]
