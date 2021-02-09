@@ -3,6 +3,7 @@ import Carrousel from './anuncio/Carrousel/Carrousel'
 import VideoTextFront from './anuncio/VideoComponent/VideoTextFront'
 import {Brand} from './menu/brand'
 import { useFectImages } from './Services/useServiceImageData'
+
 export const Home = () => {
     const {data,loading} = useFectImages('/ImagesHome.json');
     const {data:dataVideo,loading:loadingVideo} = useFectImages('/VideosR.json');
