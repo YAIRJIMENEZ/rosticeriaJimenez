@@ -1,0 +1,37 @@
+.Container{
+    position:relative;
+    max-height: 420px;
+    width: auto;
+}
+.Container > .BackGround{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: black;
+    mix-blend-mode: multiply;
+    overflow: hidden;
+    top:0;
+    z-index: 999;
+}
+.Container .Text{
+    display: block;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 7vw;
+    color: white;
+}
+.Video{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    top:0;
+    background-color: black;
+}
+.Video video{
+    width: 100%;
+    display:block;
+    object-fit: cover;
+}

@@ -1,0 +1,9 @@
+.containerAdd{
+    padding: 15px;
+    text-align:center  !important;
+}
+.containerAdd  h1{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color:#d34a2a;
+}
+

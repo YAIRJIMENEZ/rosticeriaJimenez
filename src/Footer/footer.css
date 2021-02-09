@@ -1,0 +1,45 @@
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.footer {
+    background-color: #f34923;
+    padding: 15px;
+    margin: auto;
+    /* border-top: 1px solid black;
+    border-left: 1px double black;
+    border-right: 1px double black; */
+    width: 90%;
+    /* border-radius: 26% 26% 0 0; */
+    opacity: 0.85;
+    filter:contrast(1.5);
+    height: 120px;
+    box-shadow: inset 1px 1px 10px black;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.footer img{
+    width: 22px;
+    margin: 5px 0px;
+}
+.footer .left{
+    float: left;
+}
+a{
+    color: white;
+    margin: 0 5px;
+}
+a:hover{
+    color: black;
+}
+ul{
+    list-style: none;
+    display: block;
+    
+}
+li{
+    margin: 5px 0;
+   
+}
