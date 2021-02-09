@@ -7,7 +7,7 @@ export const Navbar = () => {
             
             <Link 
                 className="navbar-brand" 
-                to="/"
+                to="./"
             >
                 Servicios/Productos
             </Link>
@@ -19,7 +19,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link" 
                         exact
-                        to="/marvel"
+                        to="./"
                     >
                         Carniceria
                     </NavLink>
@@ -27,7 +27,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link" 
                         exact
-                        to="/marvel"
+                        to="./"
                     >
                         Rosticeria
                     </NavLink>
