@@ -4,7 +4,7 @@ import { BrowserRouter, Link, NavLink } from 'react-router-dom'
 export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark">
-            <BrowserRouter basename='/rosticeriaJimenez'>
+           
             <Link 
                 className="navbar-brand" 
                 to="/"
@@ -47,7 +47,7 @@ export const Navbar = () => {
                     </NavLink>
                 </ul>
             </div>
-            </BrowserRouter>
+           
         </nav>
     )
 }
