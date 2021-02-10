@@ -7,7 +7,7 @@ import { Footer } from '../../Footer/Footer'
 const VideoTextFront = ({Id,Name,Path,Description}) => {
     return (
         <div className="Container">
-             <Video Path={Path}></Video>
+             <Video Path={process.env.PUBLIC_URL+Path}></Video>
             <div className='BackGround'>
                 <p className="Text">
                     {Description}

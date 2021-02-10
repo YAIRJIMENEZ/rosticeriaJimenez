@@ -9,7 +9,7 @@ const Carrousel = ({images}) => {
         <Carousel>
             {
                 images.map(({Id,Name,Path,Description}) =>(
-                    <ItemCarrousel key={Id} Name={Name} Path={Path} Description={Description}></ItemCarrousel>
+                    <ItemCarrousel key={Id} Name={Name} Path={process.env.PUBLIC_URL+Path} Description={Description}></ItemCarrousel>
                 ))
                 
             }
