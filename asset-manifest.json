@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rosticeriaJimenez/static/css/main.8d5d7b81.chunk.css",
-    "main.js": "/rosticeriaJimenez/static/js/main.04ac0bb0.chunk.js",
-    "main.js.map": "/rosticeriaJimenez/static/js/main.04ac0bb0.chunk.js.map",
+    "main.js": "/rosticeriaJimenez/static/js/main.157eccad.chunk.js",
+    "main.js.map": "/rosticeriaJimenez/static/js/main.157eccad.chunk.js.map",
     "runtime-main.js": "/rosticeriaJimenez/static/js/runtime-main.94114d6a.js",
     "runtime-main.js.map": "/rosticeriaJimenez/static/js/runtime-main.94114d6a.js.map",
     "static/css/2.55d8add8.chunk.css": "/rosticeriaJimenez/static/css/2.55d8add8.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.55d8add8.chunk.css",
     "static/js/2.4afb7e97.chunk.js",
     "static/css/main.8d5d7b81.chunk.css",
-    "static/js/main.04ac0bb0.chunk.js"
+    "static/js/main.157eccad.chunk.js"
   ]
 }
