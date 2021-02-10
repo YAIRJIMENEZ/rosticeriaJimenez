@@ -5,8 +5,9 @@ import {Brand} from './menu/brand'
 import { useFectImages } from './Services/useServiceImageData'
 
 export const Home = () => {
-    const {data,loading} = useFectImages('/rosticeriaJimenez/assets/ImagesHome.json');
-    const {data:dataVideo,loading:loadingVideo} = useFectImages('/rosticeriaJimenez/assets/VideosR.json');
+    const root =process.env.PUBLIC_URL;
+    const {data,loading} = useFectImages(`${root}/assets/ImagesHome.json`);
+    const {data:dataVideo,loading:loadingVideo} = useFectImages(`${root}/assets/VideosR.json`);
     return (
         <div>
            <Brand Titulo="CARNICERÍA" Subtitulo="Abierto todos los dias de 8am a 4pm" />
