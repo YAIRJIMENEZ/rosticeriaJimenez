@@ -15,13 +15,13 @@ export const Footer = () => {
                    <ul>
                        <li>
                            <div className="left">
-                            <img src='/assets/images/whatsapp.png'></img>
+                            <img src='/rosticeriaJimenez/assets/images/whatsapp.png'></img>
                             <a href='https://wa.me/524493475716' target="_blank">4493475716</a>
                           </div>
                        </li>
                        <li>
                             <div className="left">
-                             <img src='/assets/images/facebook.png'></img>
+                             <img src='/rosticeriaJimenez/assets/images/facebook.png'></img>
                              <a href='https://www.facebook.com/rosticeriaycarniceriajimenez' target="_blank">@rosticeriaycarniceriajimenez</a>
                              </div>
                        </li>
