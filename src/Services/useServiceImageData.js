@@ -10,7 +10,7 @@ export const useFectImages = (pathSource) => {
               'Content-Type': 'application/json',
               'Accept': 'application/json'
              }
-          }).then((res) => res.json()) .then((imgs) => {
+          }).then((res) => res.json()) .then((imgs) => {  
             setstate({
                 data: imgs,
                 loading:false

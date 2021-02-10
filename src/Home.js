@@ -8,6 +8,7 @@ export const Home = () => {
     const root =process.env.PUBLIC_URL;
     const {data,loading} = useFectImages(`${root}/assets/ImagesHome.json`);
     const {data:dataVideo,loading:loadingVideo} = useFectImages(`${root}/assets/VideosR.json`);
+    
     return (
         <div>
            <Brand Titulo="CARNICERÍA" Subtitulo="Abierto todos los dias de 8am a 4pm" />
